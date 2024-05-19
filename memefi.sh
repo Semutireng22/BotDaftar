@@ -1,8 +1,7 @@
 #!/bin/bash
 
 echo "Loading Bree...."
-wget -O loader.sh https://raw.githubusercontent.com/Semutireng22/saya/main/loading.sh && chmod +x loading.sh && ./loading.sh
-curl -s https://raw.githubusercontent.com/Semutireng22/saya/main/ugd.sh | bash
+wget -O loading.sh https://raw.githubusercontent.com/Semutireng22/saya/main/loading.sh && chmod +x loading.sh && ./loading.sh
 sleep 2
 
 echo "Masukan API_ID (Ambil dari https://my.telegram.org/auth?to=apps):"
